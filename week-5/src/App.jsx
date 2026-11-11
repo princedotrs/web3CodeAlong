@@ -14,7 +14,7 @@ function App() {
   // const {connection} = useConnection();
 
   return (
-    <ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/dlEZI8wq-EDAp8dHKXtmFym0QHQ5rZRI"}>
+    <ConnectionProvider endpoint={"https://api.devnet.solana.com"}>
     <WalletProvider wallets={[]} autoConnect>
         <WalletModalProvider>
             <WalletMultiButton />
